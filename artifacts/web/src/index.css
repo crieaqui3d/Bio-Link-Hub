@@ -86,6 +86,10 @@ a {
   letter-spacing: -0.07em;
 }
 
+.brand-highlight {
+  color: #ffe000;
+}
+
 .linktree-links {
   display: grid;
   gap: 1rem;
@@ -120,6 +124,16 @@ a {
   color: #11110f;
   outline: none;
   transform: translateY(-3px);
+}
+
+.linktree-links a:nth-child(3) {
+  color: #ffe000;
+}
+
+.linktree-links a:nth-child(3):hover,
+.linktree-links a:nth-child(3):focus-visible {
+  background: #11110f;
+  color: #ffe000;
 }
 
 .linktree-links a:active {

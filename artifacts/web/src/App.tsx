@@ -10,7 +10,9 @@ function Home() {
       <section className="linktree-card" aria-labelledby="brand-title">
         <header className="linktree-header">
           <span className="brand-mark" aria-hidden="true" />
-          <h1 id="brand-title">Crie Aqui 3D</h1>
+          <h1 id="brand-title">
+            Crie <span className="brand-highlight">Aqui</span> 3D
+          </h1>
         </header>
 
         <nav className="linktree-links" aria-label="Links">

@@ -4,8 +4,8 @@
 
 :root {
   font-family: 'Space Grotesk', sans-serif;
-  color: #f8f5e8;
-  background: #11110f;
+  color: #11110f;
+  background: #f8f5e8;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
 }
@@ -16,7 +16,7 @@
 
 html {
   min-width: 320px;
-  background: #11110f;
+  background: #f8f5e8;
   scroll-behavior: smooth;
 }
 
@@ -42,8 +42,8 @@ a {
   justify-content: center;
   padding: 2rem 1rem;
   background:
-    radial-gradient(circle at 15% 15%, rgba(255, 224, 0, 0.11), transparent 25rem),
-    #11110f;
+    radial-gradient(circle at 15% 15%, rgba(17, 17, 15, 0.11), transparent 25rem),
+    #f8f5e8;
 }
 
 .linktree-card {
@@ -53,10 +53,10 @@ a {
   flex-direction: column;
   align-items: stretch;
   padding: clamp(2rem, 7vw, 3.5rem) clamp(1.25rem, 7vw, 3rem) 1.25rem;
-  border: 2px solid #f8f5e8;
+  border: 2px solid #11110f;
   border-radius: 2rem;
-  background: #11110f;
-  box-shadow: 0.75rem 0.75rem 0 #ffe000;
+  background: #ffffff;
+  box-shadow: 0.75rem 0.75rem 0 #11110f;
 }
 
 .linktree-header {
@@ -71,16 +71,16 @@ a {
   display: block;
   width: 4.5rem;
   height: 4.5rem;
-  border: 2px solid #11110f;
+  border: 2px solid #f8f5e8;
   border-radius: 1.25rem;
-  background: #ffe000;
-  box-shadow: 0.35rem 0.35rem 0 #f8f5e8;
+  background: #11110f;
+  box-shadow: 0.35rem 0.35rem 0 #11110f;
   transform: rotate(-7deg);
 }
 
 .linktree-header h1 {
   margin: 0;
-  color: #ffe000;
+  color: #11110f;
   font-size: clamp(2rem, 8vw, 2.8rem);
   font-weight: 700;
   letter-spacing: -0.07em;
@@ -98,10 +98,10 @@ a {
   align-items: center;
   justify-content: center;
   padding: 1rem 1.25rem;
-  border: 2px solid #f8f5e8;
+  border: 2px solid #11110f;
   border-radius: 999px;
-  background: #ffe000;
-  color: #11110f;
+  background: #11110f;
+  color: #f8f5e8;
   font-size: 1.15rem;
   font-weight: 700;
   text-align: center;
@@ -115,8 +115,9 @@ a {
 
 .linktree-links a:hover,
 .linktree-links a:focus-visible {
-  border-color: #ffe000;
+  border-color: #11110f;
   background: #f8f5e8;
+  color: #11110f;
   outline: none;
   transform: translateY(-3px);
 }
@@ -128,7 +129,7 @@ a {
 .linktree-footer {
   margin-top: auto;
   padding-top: 3rem;
-  color: #f8f5e8;
+  color: #11110f;
   font-family: 'DM Mono', monospace;
   font-size: 0.78rem;
   letter-spacing: 0.08em;
@@ -143,7 +144,7 @@ a {
   .linktree-card {
     min-height: calc(100vh - 2rem);
     border-radius: 1.5rem;
-    box-shadow: 0.5rem 0.5rem 0 #ffe000;
+    box-shadow: 0.5rem 0.5rem 0 #11110f;
   }
 }
 

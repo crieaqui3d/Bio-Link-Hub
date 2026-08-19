@@ -1,0 +1,10 @@
+{
+  "buildCommand": "PORT=22333 BASE_PATH=/ pnpm --filter @workspace/web run build",
+  "outputDirectory": "artifacts/web/dist/public",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

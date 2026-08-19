@@ -1,5 +1,5 @@
 {
-  "buildCommand": "PORT=22333 BASE_PATH=/ pnpm --filter @workspace/web run build && rm -rf public && mkdir -p public && cp -R artifacts/web/dist/public/. public/",
+  "buildCommand": "if [ -d artifacts/web ]; then PORT=22333 BASE_PATH=/ pnpm --filter @workspace/web run build; SRC=artifacts/web/dist/public; else PORT=22333 BASE_PATH=/ pnpm run build; SRC=dist/public; fi; rm -rf public && mkdir -p public && cp -R \"$SRC\"/. public/",
   "outputDirectory": "public",
   "rewrites": [
     {
